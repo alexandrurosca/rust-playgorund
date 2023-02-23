@@ -21,6 +21,8 @@ fn divide(val1: &f32, val2: &f32) -> f32 {
     val1 / val2
 }
 
+
+// to run: cargo run -- 10 230 /
 fn main() {
     let args: Vec<String> = env::args().collect();
 
